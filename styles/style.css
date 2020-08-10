@@ -284,6 +284,8 @@
 
 .footer__column {
   margin: 0;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .footer__column_content_copyright {
@@ -308,11 +310,6 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
-}
-
-ul {
-  list-style-type: none;
-  padding-left: 0;
 }
 
 .footer__column-links {
