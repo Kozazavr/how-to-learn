@@ -1,0 +1,8 @@
+.video__iframes {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 273px; /*100px+1.15*60px+20px+34px+50px=273px (100,20 и 50 - расстояние между блоками по брифу, 69 и 34 - высота заголовка и подзаголовка по брифу)*/
+  transform: translate(-50%, 0);
+}
