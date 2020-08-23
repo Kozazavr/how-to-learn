@@ -5,4 +5,11 @@
   left: 50%;
   top: 273px; /*100px+1.15*60px+20px+34px+50px=273px (100,20 и 50 - расстояние между блоками по брифу, 69 и 34 - высота заголовка и подзаголовка по брифу)*/
   transform: translate(-50%, 0);
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.video__iframes li:last-child .video__iframe {
+  margin-right: 0;
 }
