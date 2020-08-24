@@ -10,6 +10,8 @@
   list-style-type: none;
 }
 
-.video__iframes li:last-child .video__iframe {
+.video__iframes .video__iframe-list:last-child .video__iframe {
   margin-right: 0;
 }
+
+
